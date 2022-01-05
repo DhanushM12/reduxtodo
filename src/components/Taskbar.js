@@ -3,7 +3,7 @@ import {connect} from 'react-redux';
 import { bindActionCreators } from 'redux';
 import {addTask} from '../actions/index';
 
-export class Taskbar extends Component {
+class Taskbar extends Component {
     render() {
         return (
             <div>
